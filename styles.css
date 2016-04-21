@@ -1,0 +1,46 @@
+body{		
+background:url("violin.jpg");
+color:white;
+}
+
+h1{
+font-family:Serif;	
+font-size:45pt;
+font-style:italic;
+}
+
+h1{	
+text-align:center;
+background:url("back.jpg");
+color:black;
+}
+
+p2{		
+font-style:italic;
+}
+
+a{		
+color:white;
+}
+
+a:hover{		
+color:#DAA520;
+}
+
+.crop-img{
+  max-height:150px;
+  max-width:auto;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.large-img{
+  max-width:100%;
+}
+
+/* remove this if you want to remove the round borders and the shadow effect */
+.large-img, .crop-img{
+  border-radius: 25px;
+  padding-top:5px;
+  box-shadow: 10px 10px 5px #000000;
+}
